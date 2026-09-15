@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Mobility Lens</string>
+    <string name="app_title">Mobility Lens</string>
+    <string name="app_intro">Six things that make mobile app design different from desktop design.</string>
+
+    <string name="dimension_1_name">Input and Interaction</string>
+    <string name="dimension_1_description">On a phone you\'re tapping and swiping with your finger, sometimes with just one hand, instead of using a mouse and a full keyboard like on a computer.</string>
+    <string name="dimension_1_implication">Make buttons at least 48dp tall so they\'re easy to tap, and don\'t put important actions in the corners where a thumb can\'t reach one handed.</string>
+
+    <string name="dimension_2_name">Screen Size, Orientation, and Density</string>
+    <string name="dimension_2_description">Phone screens are small and can flip between portrait and landscape at any time, and they come in a ton of different sizes. Computer monitors are usually bigger and just stay put.</string>
+    <string name="dimension_2_implication">Test the layout in both portrait and landscape, and use dp units instead of fixed pixel sizes so it doesn\'t break on a different screen density.</string>
+
+    <string name="dimension_3_name">Lifecycle and Resource Constraints</string>
+    <string name="dimension_3_description">The phone\'s OS can shut down your app at any point to save battery or memory, so you can\'t assume it just keeps running like a program on a laptop would.</string>
+    <string name="dimension_3_implication">Save form input or scroll position with rememberSaveable or a ViewModel, so the user doesn\'t lose progress if the app gets killed in the background.</string>
+
+    <string name="dimension_4_name">Context Awareness</string>
+    <string name="dimension_4_description">Phones know a lot about what\'s going on around them, like your location, movement, and camera, stuff a regular computer usually doesn\'t have access to.</string>
+    <string name="dimension_4_implication">A food delivery app can use GPS to auto fill the user\'s address instead of making them type it in manually every time.</string>
+
+    <string name="dimension_5_name">Usage Patterns</string>
+    <string name="dimension_5_description">People check their phones for quick things throughout the day and get interrupted a lot, versus sitting at a desktop for one long focused session.</string>
+    <string name="dimension_5_implication">Let the user check a delivery status or a bank balance in one or two taps instead of forcing them through a multi step flow every time they open the app.</string>
+
+    <string name="dimension_6_name">Security and Privacy Expectations</string>
+    <string name="dimension_6_description">Phones carry a lot of personal info and ask for permission each time before touching something sensitive, unlike desktops which usually just trust the app by default.</string>
+    <string name="dimension_6_implication">If the user denies the camera permission, still let them upload a photo from their gallery instead of the feature just breaking.</string>
+
+    <string name="previous_button">Previous</string>
+    <string name="next_button">Next</string>
+    <string name="app_name_label">What app or feature are you designing?</string>
+    <string name="check_button">Check</string>
+    <string name="blank_input_warning">You need to type something first!</string>
+    <string name="result_message">%1$s, thinking about %2$s</string>
+</resources>
